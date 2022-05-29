@@ -9,54 +9,72 @@ h1{
     text-align: center;
 }
 p{
+    margin: 3px 0px;
     color: rgb(0, 0, 0);
     text-align: center;
 }
 img{
+    background-color: black;
     position: relative;
-    left: 500px;
+    margin: 0px;;
 }
-img#y {
+img.t
+{
+    background-color: black;
+    display: inline;
     position: absolute;
-    left: 540px;
-    top: 523px;}
-img#i {
-    position: absolute;
-    left: 540px;
-    top: 623px;
+    margin: 0px;
 }
-img#t{
+img.y
+{
+    background-color: black;
+    display: inline;
     position: absolute;
-    left: 540px;
-    top: 423px;
+    margin: 0px;
 }
-p#a {
-    color: blueviolet;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: absolute;
-    list-style: none;
-    left: 600px;
-    top: 423px;
-    outline: 2px solid blueviolet;
-    outline-offset: 2px;
+img.i {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    display: inline;
+    margin: 0px;
+    
 }
-p#b{
-    color: rgb(241, 18, 18);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: absolute;
-    list-style: none;
-    left: 600px;
-    top: 523px;
-    outline: 2px solid rgb(241, 18, 18);
-    outline-offset: 2px;
+a{
+    text-decoration: none;
+    margin: 0px;
 }
-p#c{
-    color: rgb(241, 163, 18);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: absolute;
-    list-style: none;
-    left: 600px;
-    top: 623px;
-    outline: 2px solid rgb(241, 163, 18);
-    outline-offset: 2px;
+div.tw 
+{
+    box-shadow: 10% 50%;
+    margin:0px;
+    border-radius: 8px;
+    padding: 1px;
+    width: 100px;
+    height: 25px;
+    position: relative;
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+
+div.yu{
+    margin:0px;
+    border-radius: 8px;
+    padding: 1px;
+    width: 100px;
+    height: 25px;
+    position: relative;
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+div.in{
+    margin:0px;
+    border-radius: 8px;
+    padding: 1px;
+    width: 100px;
+    height: 25px;
+    position: relative;
+    background-color: blueviolet;
+    border-color: blueviolet;
 }
