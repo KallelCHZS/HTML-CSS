@@ -16,21 +16,21 @@ p{
 img{
     background-color: black;
     position: relative;
-    margin: 0px;;
+    margin: 0% 0% 0% 35%;
 }
 img.t
 {
     background-color: black;
     display: inline;
     position: absolute;
-    margin: 0px;
+    margin: 0% 0% 0% 34%;
 }
 img.y
 {
     background-color: black;
     display: inline;
     position: absolute;
-    margin: 0px;
+    margin: 0% 0% 5% 34%;
 }
 img.i {
     position: relative;
@@ -38,7 +38,7 @@ img.i {
     width: 50px;
     background-color: black;
     display: inline;
-    margin: 0px;
+    margin: 0% 0% 0% 34%;
     
 }
 a{
@@ -48,7 +48,7 @@ a{
 div.tw 
 {
     box-shadow: 10% 50%;
-    margin:0px;
+    margin: 0% 0% 0% 0%;
     border-radius: 8px;
     padding: 1px;
     width: 100px;
@@ -59,7 +59,7 @@ div.tw
 }
 
 div.yu{
-    margin:0px;
+    margin: 0% 0% 0% 0%;
     border-radius: 8px;
     padding: 1px;
     width: 100px;
@@ -69,7 +69,7 @@ div.yu{
     border-color: blueviolet;
 }
 div.in{
-    margin:0px;
+    margin: 0% 0% 0% 0%;
     border-radius: 8px;
     padding: 1px;
     width: 100px;
