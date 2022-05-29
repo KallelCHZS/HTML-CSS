@@ -16,7 +16,7 @@ p{
 img{
     background-color: black;
     position: relative;
-    margin: 0% 0% 0% 35%;
+    margin: 0% 0% 0% 30%;
 }
 img.t
 {
@@ -30,7 +30,7 @@ img.y
     background-color: black;
     display: inline;
     position: absolute;
-    margin: 0% 0% 5% 34%;
+    margin: 4.5% 0% 0% 34%;
 }
 img.i {
     position: relative;
@@ -38,7 +38,7 @@ img.i {
     width: 50px;
     background-color: black;
     display: inline;
-    margin: 0% 0% 0% 34%;
+    margin: 9% 0% 0% 35%;
     
 }
 a{
