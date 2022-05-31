@@ -1,16 +1,15 @@
 @charset "UTF-8";
 
 body{
-    background-image: linear-gradient(to right, #055e92b4,white);
+    background-image: url(10.jpg);
+    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
-h1{
-    color: rgb(0, 0, 0);
+h1{ background-color: white;
     text-align: center;
 }
-p{
+p{ background-color: white;
     margin: 3px 0px;
-    color: rgb(0, 0, 0);
     text-align: center;
 }
 img{
@@ -56,6 +55,7 @@ div.tw
 {
     background-color: blueviolet;
     border: 1px solid blueviolet;
+    color: blueviolet;
     position: absolute;
     bottom: 0%;
     left: 40%;
@@ -75,6 +75,7 @@ div.yu{
     height: 25px;
     background-color: blueviolet;
     border-color: blueviolet;
+    color: red;
     position: absolute;
     bottom: 0%;
     left: 40%;
@@ -90,6 +91,7 @@ div.in{
     position: relative;
     background-color: blueviolet;
     border-color: blueviolet;
+    color: orange;
     position: absolute;
     bottom: 0%;
     left: 40%;
