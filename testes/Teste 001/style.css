@@ -47,15 +47,15 @@ a{
 }
 div.tw 
 {
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    display: inline-block;
     box-shadow: 10% 50%;
     margin: 0% 0% 0% 0%;
     border-radius: 8px;
     padding: 1px;
     width: 100px;
     height: 25px;
-    position: relative;
-    background-color: blueviolet;
-    border-color: blueviolet;
 }
 
 div.yu{
