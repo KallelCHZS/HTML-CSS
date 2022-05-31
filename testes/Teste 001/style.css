@@ -14,31 +14,38 @@ p{
     text-align: center;
 }
 img{
-    background-color: black;
     position: relative;
-    margin: 0% 0% 0% 30%;
+    bottom: 0%;
+    left: 35%;
+    right: 0%;
+    top: 0%;
+    margin: 0px;
 }
 img.t
 {
-    background-color: black;
-    display: inline;
     position: absolute;
-    margin: 0% 0% 0% 34%;
+    bottom: 0%;
+    left: 35%;
+    right: 0%;
+    top: 65%;
+    margin: 0px;
 }
 img.y
 {
-    background-color: black;
-    display: inline;
     position: absolute;
-    margin: 4.5% 0% 0% 34%;
+    bottom: 0%;
+    left: 35%;
+    right: 0%;
+    top: 73%;
+    margin: 0px;
 }
 img.i {
-    position: relative;
-    height: 50px;
-    width: 50px;
-    background-color: black;
-    display: inline;
-    margin: 9% 0% 0% 35%;
+    position: absolute;
+    bottom: 0%;
+    left: 35%;
+    right: 0%;
+    top: 82%;
+    margin: 0px;
     
 }
 a{
@@ -49,9 +56,12 @@ div.tw
 {
     background-color: blueviolet;
     border: 1px solid blueviolet;
-    display: inline-block;
-    box-shadow: 10% 50%;
-    margin: 0% 0% 0% 0%;
+    position: absolute;
+    bottom: 0%;
+    left: 40%;
+    right: 0%;
+    top: 67%;
+    margin: 0px;
     border-radius: 8px;
     padding: 1px;
     width: 100px;
@@ -59,17 +69,20 @@ div.tw
 }
 
 div.yu{
-    margin: 0% 0% 0% 0%;
     border-radius: 8px;
     padding: 1px;
     width: 100px;
     height: 25px;
-    position: relative;
     background-color: blueviolet;
     border-color: blueviolet;
+    position: absolute;
+    bottom: 0%;
+    left: 40%;
+    right: 0%;
+    top: 75%;
+    margin: 0px;
 }
 div.in{
-    margin: 0% 0% 0% 0%;
     border-radius: 8px;
     padding: 1px;
     width: 100px;
@@ -77,4 +90,10 @@ div.in{
     position: relative;
     background-color: blueviolet;
     border-color: blueviolet;
+    position: absolute;
+    bottom: 0%;
+    left: 40%;
+    right: 0%;
+    top: 83.5%;
+    margin: 0px;
 }
