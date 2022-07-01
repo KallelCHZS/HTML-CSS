@@ -8,14 +8,16 @@
 </head>
 <body>
     <h1>Teste de Formulario</h1>
-    <form action="cadastro.php" method="post" >
+    <form action="cadastro.php" method="post" autocomplete="on">
       <p>
         <label for="nome">Usuário:</label>
-        <input type="text" id="nome" required>
+        <input type="text" id="nome" required size="11"
+        placeholder="Nome de Usuário" autocomplete="username">
     </p>
     <p>
         <label for="senha">Senha:</label>
-        <input type="password" name="senha" id="senha" required minlength="8">
+        <input type="password" name="senha" id="senha" required minlength="8" size="9"
+        placeholder="Minimo 8 letras" autocomplete="current-password">
     </p>
     <p>
         <input type="submit" value="Cadastre-se" >
