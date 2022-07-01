@@ -9,20 +9,19 @@
 </head>
 <body>
     <h1>Meu primeiro formulario</h1>
-    <form >
-        <p>Nome: <input type="text" name="nome" id="nome"></p>
-        <p>Sobre Nome: <input type="text" name="sobrenome" id="sobrenome"></p>
-        <input type="button" value="Mostrar nome" onclick="mostrar()">
-        <p id="res"></p>
+    <form method="post" action="cadastro.php" autocomplete="off">
+        <p>
+            <label for="nome">Nome:</label> 
+            <input type="text" name="nome" id="nome" >
+        </p>
+        <p>
+            <label for="sobrenome">Sobre Nome:</label> 
+            <input type="text" name="sobrenome" id="sobrenome">
+        </p>  
+        <p>
+            <input type="submit" value="Mostrar nome" onclick="mostrar()" >
+        </p>
     </form>
-    <script>
-        function mostrar(){
-            var nome = document.getElementById(nome)
-            var sobre = document.getElementById(sobrenome)
-            var res = document.getElementById(res)
-            
-            res.innerHTML = `${nome} ${sobre}`
-        }
-    </script>
+  
 </body>
 </html>
